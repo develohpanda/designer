@@ -1,0 +1,8 @@
+_id: ut_9000441f5f04459080a8e57cf76c29f9
+code: expect(2*4).to.equal(8)
+created: 1594252514068
+modified: 1594252514068
+name: Multiply two numbers
+parentId: uts_8783c30a24b24e9a851d96cce48bd1f2
+requestId: null
+type: UnitTest

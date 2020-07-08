@@ -1,0 +1,21 @@
+_id: req_1f559622273243a2aeb60f3a31cf37a2
+authentication: {}
+body: {}
+created: 1594252514054
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1593669324881
+method: GET
+modified: 1594252514054
+name: /global
+parameters: []
+parentId: fld_99e7145409154b06b73c9f00e5cb53cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/global"

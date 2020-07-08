@@ -1,0 +1,8 @@
+_id: ut_a78eb87d2e9b425f9d0798a740a6fa22
+code: expect('first' + 'second' + 'third').to.equal('first second third');
+created: 1594252514083
+modified: 1594252514083
+name: Concatenate three strings
+parentId: uts_8c6e2f68db4c484f9b640d11a8e578ab
+requestId: null
+type: UnitTest
