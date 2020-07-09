@@ -22,8 +22,8 @@ jobs:
       - name: Install inso globally
         run: npm install -g insomnia-inso
       - name: Lint specification
-        run: inso lint spec "Sample Specification" --ci
+        run: inso lint spec "Designer Demo" --ci
       - name: Run all test suites
-        run: inso run test "Sample Specification" --env "OpenAPI env" --ci
+        run: inso run test "Designer Demo" --env UnitTest --bail --ci
       - name: Generate declarative config
-        run: inso generate config "Sample Specification" --type declarative --ci
+        run: inso generate config "Designer Demo" --type declarative --ci
