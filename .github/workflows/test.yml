@@ -12,7 +12,7 @@ on:
 
 jobs:
   Linux:
-    name: Lint specification
+    name: Validate API spec
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
@@ -21,9 +21,9 @@ jobs:
         uses: actions/setup-node@v1
       - name: Install inso globally
         run: npm install -g insomnia-inso
-      - name: Lint specification
+      - name: Lint
         run: inso lint spec "Designer Demo" --ci
-      - name: Run all test suites
+      - name: Run test suites
         run: inso run test "Designer Demo" --env UnitTest --ci
       - name: Generate declarative config
         run: inso generate config "Designer Demo" --type declarative --ci
