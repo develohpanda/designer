@@ -1,0 +1,21 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - develop
+      - master
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  Linux:
+    name: Lint specification
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v1
+      - name: Install NodeJS
+        uses: actions/setup-node@v1
