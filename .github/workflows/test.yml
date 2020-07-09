@@ -21,5 +21,9 @@ jobs:
         uses: actions/setup-node@v1
       - name: Install inso globally
         run: npm install -g insomnia-inso
-      - name: Lint
-        run: inso lint spec spc_936c5d --ci
+      - name: Lint specification
+        run: inso lint spec "Sample Specification" --ci
+      - name: Run all test suites
+        run: inso run test "Sample Specification" --env "OpenAPI env" --ci
+      - name: Generate declarative config
+        run: inso generate config "Sample Specification" --type declarative --ci
