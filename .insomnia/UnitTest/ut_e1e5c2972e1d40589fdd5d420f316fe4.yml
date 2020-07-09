@@ -1,8 +1,0 @@
-_id: ut_e1e5c2972e1d40589fdd5d420f316fe4
-code: expect('first' + ' second').to.equal('first second');
-created: 1594252514081
-modified: 1594252514081
-name: Concatenate two strings
-parentId: uts_8c6e2f68db4c484f9b640d11a8e578ab
-requestId: null
-type: UnitTest

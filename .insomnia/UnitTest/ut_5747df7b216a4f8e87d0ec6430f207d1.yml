@@ -1,8 +1,0 @@
-_id: ut_5747df7b216a4f8e87d0ec6430f207d1
-code: expect('a' + 'b' + 'c' + 'd').to.equal('a b c d');
-created: 1594252514084
-modified: 1594252514084
-name: Concatenate four strings
-parentId: uts_8c6e2f68db4c484f9b640d11a8e578ab
-requestId: null
-type: UnitTest
