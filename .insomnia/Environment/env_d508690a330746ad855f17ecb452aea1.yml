@@ -1,0 +1,18 @@
+_id: env_d508690a330746ad855f17ecb452aea1
+color: null
+created: 1594255581553
+data:
+  base_path: ""
+  host: google.com
+  scheme: https
+dataPropertyOrder:
+  "&":
+    - base_path
+    - host
+    - scheme
+isPrivate: false
+metaSortKey: 1594255355950
+modified: 1594256143016
+name: UnitTest
+parentId: env_70cc3094c3d34a8290599644386470ab
+type: Environment
