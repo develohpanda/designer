@@ -8,7 +8,7 @@ dataPropertyOrder:
     - base_url
 isPrivate: false
 metaSortKey: 1589851906358
-modified: 1594252514041
+modified: 1594255972990
 name: Base environment
 parentId: wrk_8f782e46154945fca55c6eb11b34e434
 type: Environment

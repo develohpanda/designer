@@ -1,0 +1,21 @@
+_id: req_wrk_8f782e46154945fca55c6eb11b34e434068322b7
+authentication: {}
+body: {}
+created: 1594255972982
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1594255972982
+method: GET
+modified: 1594255972982
+name: Path One
+parameters: []
+parentId: fld_wrk_8f782e46154945fca55c6eb11b34e43430baa249
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/path-one"

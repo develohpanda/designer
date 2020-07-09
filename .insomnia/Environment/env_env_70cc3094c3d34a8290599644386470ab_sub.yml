@@ -1,14 +1,14 @@
-_id: env_9b18335d9dca4822a9964587e0587412
+_id: env_env_70cc3094c3d34a8290599644386470ab_sub
 color: null
-created: 1594252514042
+created: 1594255355900
 data:
   base_path: ""
   host: 200.insomnia.rest
   scheme: https
 dataPropertyOrder: null
 isPrivate: false
-metaSortKey: 1592252904087
-modified: 1594252514042
+metaSortKey: 1594255355900
+modified: 1594255972988
 name: OpenAPI env
 parentId: env_70cc3094c3d34a8290599644386470ab
 type: Environment
