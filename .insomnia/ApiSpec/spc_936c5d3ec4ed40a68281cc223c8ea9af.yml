@@ -3,27 +3,37 @@ contentType: yaml
 contents: |
   openapi: '3.0.2'
   info:
-    title: Sample Spec
+    title: Demo Spec
     version: '1.2'
   servers:
     - url: https://200.insomnia.rest
   tags:
     - name: Folder
   paths:
-    /global:
+    /:
       get:
+        summary: Base
+        responses:
+          '200':
+            description: OK
+    /path-one:
+      get:
+        summary: Path One
         tags:
           - Folder
         responses:
           '200':
             description: OK
-    /override:
+    /path-two:
       get:
+        summary: Path Two
+        tags:
+          - Folder
         responses:
           '200':
             description: OK
 created: 1594252514050
-fileName: Sample Specification
-modified: 1594255355906
+fileName: Designer Demo
+modified: 1594255972993
 parentId: wrk_8f782e46154945fca55c6eb11b34e434
 type: ApiSpec

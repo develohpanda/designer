@@ -1,14 +1,14 @@
-_id: req_wrk_8f782e46154945fca55c6eb11b34e43421946b60
+_id: req_wrk_8f782e46154945fca55c6eb11b34e4344913120c
 authentication: {}
 body: {}
-created: 1594255254064
+created: 1594255972981
 description: ""
 headers: []
 isPrivate: false
-metaSortKey: -1594255254064
+metaSortKey: -1594255972981
 method: GET
-modified: 1594255355896
-name: /global
+modified: 1594255972981
+name: Path Two
 parameters: []
 parentId: fld_wrk_8f782e46154945fca55c6eb11b34e43430baa249
 settingDisableRenderRequestBody: false
@@ -18,4 +18,4 @@ settingRebuildPath: true
 settingSendCookies: true
 settingStoreCookies: true
 type: Request
-url: "{{ base_url }}/global"
+url: "{{ base_url }}/path-two"

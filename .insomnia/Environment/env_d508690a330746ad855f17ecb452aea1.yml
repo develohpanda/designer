@@ -3,12 +3,16 @@ color: null
 created: 1594255581553
 data:
   base_path: ""
-  host: 200.insomnia.rest
+  host: google.com
   scheme: https
-dataPropertyOrder: null
+dataPropertyOrder:
+  "&":
+    - base_path
+    - host
+    - scheme
 isPrivate: false
 metaSortKey: 1594255355950
-modified: 1594255597219
+modified: 1594256143016
 name: UnitTest
 parentId: env_70cc3094c3d34a8290599644386470ab
 type: Environment
