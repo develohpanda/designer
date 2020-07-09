@@ -10,7 +10,7 @@ contents: |
   tags:
     - name: Folder
   paths:
-    /:
+  /:
       get:
         summary: Base
         responses:
@@ -34,6 +34,6 @@ contents: |
             description: OK
 created: 1594252514050
 fileName: Designer Demo
-modified: 1594255972993
+modified: 1594258694806
 parentId: wrk_8f782e46154945fca55c6eb11b34e434
 type: ApiSpec
