@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: demo-spec-0
+spec:
+  rules:
+    - host: 200.insomnia.rest
+      http:
+        paths:
+          - backend:
+              serviceName: demo-spec-service-0
+              servicePort: 80
+

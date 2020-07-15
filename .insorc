@@ -1,0 +1,5 @@
+ci: false
+scripts:
+  lint: lint spec "Designer Demo"
+  gen-conf: generate config "Designer Demo" --type declarative
+  gen-conf:k8s: gen-conf -- --type kubernetes

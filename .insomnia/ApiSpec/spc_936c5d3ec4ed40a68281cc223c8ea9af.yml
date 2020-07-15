@@ -9,7 +9,7 @@ contents: |
     - url: https://200.insomnia.rest
   tags:
     - name: Folder
-  paths:
+    paths:
     /:
       get:
         summary: Base
